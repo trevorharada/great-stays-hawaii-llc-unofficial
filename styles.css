@@ -255,26 +255,68 @@ a {
     max-width: 200px;
 }
 
-iframe {
-    height: 500px;
-    width: 100%;
-}
-
 .section5 {
-    padding: 40px 0px;
+    padding: 40px 0px 60px;
     border-bottom: 1px solid rgb(223, 223, 223);
     display: flex;
     flex-direction: column;
+}
+
+.mini-subtitle2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .map-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top:10px
+    padding-top:30px;
 }
 
-.mini-subtitle2 {
-    font-size: 20px;
+iframe {
+    height: 500px;
+    width: 100%;
+} 
+
+.section6 {
+    padding: 30px 0px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-content {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.bottom {
     font-weight: bold;
+}
+
+.house-rules
+.safety-and-property,
+.cancelation-policy {
+    max-width: 300px;
+}
+
+.house-rules {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.safety-and-property {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cancelation-policy {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
