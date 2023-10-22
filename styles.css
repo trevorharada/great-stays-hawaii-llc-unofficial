@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .text {
@@ -92,14 +94,25 @@ a {
 }
 
 .photos {
-    border: 2px solid black;
-    padding: 207px;
-    border-radius: 15px;
+    display: flex;
+}
+
+.property-imgs {
+    height: auto;
+    width: 774px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 100px;
 }
 
 .bottom-subtitle {
-    padding-top: 26px;
+    padding: 26px 0px 12px;
     border-bottom: 1px solid rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex: 1;
+    min-width: none;
 }
 
 .mini-subtitle {
@@ -109,16 +122,88 @@ a {
 
 .mini-subtext {
     display: flex;
-    padding-top: 10px;
+    margin-top: -10px;
 }
 
-.host-picture {
-    padding: 50px 10px;
-    border: 2px solid black;
-    border-radius: 50%;
-    margin: 0;
+.guests {
+    flex: none;
+}
+
+.sublist {
+    flex:none;
+}
+
+.host-image {
+    height: auto;
+    width: 50px;
+    border-radius: 1000px;
 }
 
 .section1 {
+    padding: 26px 0;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sub-icon {
+    height: auto;
+    width: 25px;
+}
+
+.subsection1,
+.subsection2,
+.subsection3 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.subsection-title {
+    font-weight: bold;
+}
+
+.subsection-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.section2 {
+    padding: 30px 0px 35px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.mini-subtitle {
+    padding-bottom: 20px;
+}
+
+.show-more1 {
     padding-top: 20px;
+}
+
+.section3 {
+    padding: 35px 0px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.mini-boxs {
+    display: flex;
+    gap: 15px;
+}
+
+.mini-box1,
+.mini-box2 {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 15px;
+    padding: 22px 77px 22px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bed,
+.room {
+    padding: 20px 0px 10px;
+    font-weight: bold;
 }
