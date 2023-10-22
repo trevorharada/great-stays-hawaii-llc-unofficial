@@ -184,7 +184,7 @@ a {
 }
 
 .section3 {
-    padding: 35px 0px;
+    padding: 35px 0px 40px;
     border-bottom: 1px solid rgb(223, 223, 223);
 }
 
@@ -205,5 +205,75 @@ a {
 .bed,
 .room {
     padding: 20px 0px 10px;
+    font-weight: bold;
+}
+
+.section4 {
+    padding: 40px 0px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.amenities {
+    display: flex;
+    gap: 50px;
+    margin-top: -18px;
+    padding-bottom: 20px;
+}
+
+.amenities1,
+.amenities2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ocean-view,
+.beach-access,
+.wifi,
+.parking,
+.tv,
+.marina,
+.workspace,
+.pool,
+.elevator,
+.kitchen  {
+    display: flex;
+    width: 225px;
+    align-items: center;
+    gap: 15px;
+}
+
+.amenities-button {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+iframe {
+    height: 500px;
+    width: 100%;
+}
+
+.section5 {
+    padding: 40px 0px;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+}
+
+.map-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top:10px
+}
+
+.mini-subtitle2 {
+    font-size: 20px;
     font-weight: bold;
 }
